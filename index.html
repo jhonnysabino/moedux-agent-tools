@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moedux Agent Tools — contrato público da API e CLI</title>
+  <meta name="description" content="Contrato OpenAPI 3.1, SKILL.md e CLI oficial do Moedux para agentes de IA. Integre transações, contas e patrimônio com um contrato versionado e legível por máquina.">
+  <meta name="robots" content="index, follow, max-snippet:-1">
+  <link rel="canonical" href="https://jhonnysabino.github.io/moedux-agent-tools/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Moedux Agent Tools — contrato público da API e CLI">
+  <meta property="og:description" content="Contrato OpenAPI 3.1, SKILL.md e CLI oficial do Moedux para agentes de IA.">
+  <meta property="og:url" content="https://jhonnysabino.github.io/moedux-agent-tools/">
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #000; color: #e5e5e5; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 48px 20px 80px; }
+    h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.15; margin: 0 0 12px; letter-spacing: -0.02em; }
+    h2 { font-size: 22px; margin: 48px 0 12px; }
+    p { color: #a3a3a3; }
+    a { color: #fff; text-underline-offset: 3px; }
+    a:hover { color: #d4d4d4; }
+    .tag { display: inline-block; background: #262626; border: 1px solid #404040; border-radius: 999px; padding: 4px 12px; font-size: 13px; color: #d4d4d4; }
+    .cta { display: inline-block; background: #fff; color: #000; font-weight: 700; text-decoration: none; border-radius: 8px; padding: 12px 20px; margin: 8px 12px 8px 0; }
+    .cta:hover { background: #d4d4d4; color: #000; }
+    .secondary { display: inline-block; border: 1px solid #404040; border-radius: 8px; padding: 12px 20px; margin: 8px 12px 8px 0; text-decoration: none; }
+    pre { background: #171717; border: 1px solid #262626; border-radius: 10px; padding: 16px; overflow-x: auto; font-size: 14px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    ul { padding-left: 20px; }
+    li { margin: 6px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+    .card { background: #171717; border: 1px solid #262626; border-radius: 10px; padding: 18px; }
+    .card strong { display: block; margin-bottom: 6px; }
+    .card span { color: #a3a3a3; font-size: 14px; }
+    footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #262626; color: #737373; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="tag">OpenAPI 3.1 · legível por máquina · versionado</span>
+    <h1>Contrato público de integração do Moedux</h1>
+    <p>Este é o espelho canônico e versionado dos recursos que um agente de IA precisa para integrar o Moedux: o contrato <strong>OpenAPI 3.1</strong>, o <strong>SKILL.md</strong> oficial e o instalador da CLI. Em vez de adivinhar campos, leia a especificação gerada a partir do código do produto.</p>
+
+    <p>
+      <a class="cta" href="https://www.moedux.com/developers?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">Ver a documentação de desenvolvedores</a>
+      <a class="secondary" href="https://www.moedux.com/app/login?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">Criar conta grátis</a>
+    </p>
+
+    <h2>Contrato e arquivos</h2>
+    <div class="grid">
+      <div class="card"><strong><a href="./openapi.json">openapi.json</a></strong><span>Especificação OpenAPI 3.1 servida pela aplicação. Cada operação declara <code>x-permission</code> para você pedir a chave com o menor privilégio.</span></div>
+      <div class="card"><strong><a href="./SKILL.md">SKILL.md</a></strong><span>Instruções oficiais para agentes: autenticação, comandos da CLI e exemplos de uso da API.</span></div>
+      <div class="card"><strong><a href="./README.md">README.md</a></strong><span>Visão geral do kit e links para os recursos publicados.</span></div>
+    </div>
+
+    <h2>Comece em 30 segundos</h2>
+    <pre><code>curl -fsSL https://www.moedux.com/static/cli-install.sh | sh
+moedux --help</code></pre>
+    <p>O contrato ao vivo também está disponível em <a href="https://www.moedux.com/openapi.json?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">www.moedux.com/openapi.json</a>. A autenticação da API é HTTP bearer com chaves de API geradas em <code>/app/settings/apikeys</code>.</p>
+
+    <h2>Para pessoas, não só agentes</h2>
+    <p>O Moedux transforma transações, contas e estimativas de gasto em um diagnóstico claro e uma próxima ação. Comece com um desses materiais gratuitos:</p>
+    <ul>
+      <li><a href="https://www.moedux.com/planilhas/controle-financeiro-pessoal-gratis?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">Planilha gratuita de controle financeiro pessoal</a></li>
+      <li><a href="https://www.moedux.com/guias/controle-financeiro?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">Guia prático de controle financeiro</a></li>
+      <li><a href="https://www.moedux.com/guias/reserva-de-emergencia?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">Como montar a reserva de emergência</a></li>
+      <li><a href="https://www.moedux.com/comparativo/apps-controle-financeiro-pessoal?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">Comparativo de apps de controle financeiro</a></li>
+      <li><a href="https://www.moedux.com/pricing?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">Planos e trial de 14 dias sem cartão</a></li>
+    </ul>
+    <p>Os guias completos em Markdown também estão no <a href="https://gist.github.com/jhonnysabino/8e2a46d8947166f362cfaab7f3f7cee7">gist público do Moedux</a>.</p>
+
+    <footer>
+      <p>Este site é um espelho público mantido por <a href="https://github.com/jhonnysabino">jhonnysabino</a>. O produto e o contrato canônico vivem em <a href="https://www.moedux.com/?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">moedux.com</a>. Termos em <a href="https://www.moedux.com/terms-of-use?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">termos de uso</a> e <a href="https://www.moedux.com/privacy-policy?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">política de privacidade</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
