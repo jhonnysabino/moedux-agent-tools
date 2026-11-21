@@ -4,6 +4,32 @@
 
 Este repositório reúne os artefatos que um agente de IA precisa para usar o Moedux sem adivinhar formato de campo nem permissão de API. É um espelho público e versionado do que o próprio app publica em `/developers`.
 
+## Servidor MCP (registro oficial)
+
+O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial de MCP**, sem cadastro nem chave de API:
+
+- Endpoint: `https://www.moedux.com/mcp`
+- Registro: `io.github.jhonnysabino/moedux@1.0.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.0.0
+- Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
+
+Ferramentas disponíveis:
+
+- `prever_mar_vermelho` — data prevista em que o saldo chega a zero (Mar Vermelho), com link pré-preenchido.
+- `projetar_saldo_12_meses` — saldo projetado em 12 meses e a data do Mar Vermelho, com link pré-preenchido e citação da fonte.
+
+Exemplo de configuração para um cliente MCP:
+
+```json
+{
+  "mcpServers": {
+    "moedux": {
+      "type": "streamable-http",
+      "url": "https://www.moedux.com/mcp"
+    }
+  }
+}
+```
+
 ## Contrato da API
 
 - Especificação OpenAPI 3.1: [`openapi.json`](openapi.json) — espelho de https://www.moedux.com/openapi.json
