@@ -54,6 +54,18 @@
       <div class="card"><strong><a href="./README.md">README.md</a></strong><span>Visão geral do kit e links para os recursos publicados.</span></div>
     </div>
 
+    <h2>Servidor MCP no Registro Oficial</h2>
+    <p>O Moedux publica um servidor MCP remoto (Streamable HTTP) no <a href="https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.0.0">Registro Oficial de MCP</a>, sem cadastro nem chave de API. Duas ferramentas devolvem o diagnóstico antes do cadastro: <code>prever_mar_vermelho</code> (data em que o saldo chega a zero) e <code>projetar_saldo_12_meses</code> (saldo projetado e data do Mar Vermelho), ambas com link pré-preenchido.</p>
+    <pre><code>{
+  "mcpServers": {
+    "moedux": {
+      "type": "streamable-http",
+      "url": "https://www.moedux.com/mcp"
+    }
+  }
+}</code></pre>
+    <p>Server Card SEP-1649 em <a href="https://www.moedux.com/.well-known/mcp.json?utm_source=github&amp;utm_medium=pages&amp;utm_campaign=agent-tools">www.moedux.com/.well-known/mcp.json</a>.</p>
+
     <h2>Comece em 30 segundos</h2>
     <pre><code>curl -fsSL https://www.moedux.com/static/cli-install.sh | sh
 moedux --help</code></pre>
