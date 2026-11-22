@@ -63,6 +63,9 @@ Conteúdo gratuito e independente, mantido no gist canônico do projeto:
 - [Comparativo de aplicativos de finanças pessoais](https://gist.github.com/jhonnysabino/8e2a46d8947166f362cfaab7f3f7cee7#file-guia-comparativo-apps-md)
 - [Como organizar as contas e sair do vermelho](https://www.moedux.com/br/blog/organizar-contas-sair-do-vermelho?utm_source=github&utm_medium=repo&utm_campaign=leia-tambem) — diagnóstico em três passos, sem planilha.
 - [Controle financeiro com IA](https://www.moedux.com/br/blog/controle-financeiro-com-ia?utm_source=github&utm_medium=repo&utm_campaign=leia-tambem) — como antecipar o Mar Vermelho com dados reais.
+- [Quanto guardar por mês](https://www.moedux.com/br/blog/quanto-guardar-por-mes?utm_source=github&utm_medium=repo&utm_campaign=leia-tambem) — a conta do fluxo antes da meta e o papel do Gasto Diário.
+- [Como calcular gastos mensais](https://www.moedux.com/br/blog/como-calcular-gastos-mensais?utm_source=github&utm_medium=repo&utm_campaign=leia-tambem) — separar Contas Fixas do gasto variável e chegar à variação mensal.
+- [Orçamento mensal na prática (guia completo no gist)](https://gist.github.com/jhonnysabino/8e2a46d8947166f362cfaab7f3f7cee7#file-guia-orcamento-mensal-md) — passo a passo auto-contido, sem cadastro.
 
 ## Atualização
 
