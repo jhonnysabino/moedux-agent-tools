@@ -61,6 +61,8 @@ Conteúdo gratuito e independente, mantido no gist canônico do projeto:
 - [Guia prático de controle financeiro com modelos CSV](https://gist.github.com/jhonnysabino/8e2a46d8947166f362cfaab7f3f7cee7#file-guia-controle-financeiro-md)
 - [Reserva de emergência: como montar e quanto guardar](https://gist.github.com/jhonnysabino/8e2a46d8947166f362cfaab7f3f7cee7#file-guia-reserva-emergencia-md)
 - [Comparativo de aplicativos de finanças pessoais](https://gist.github.com/jhonnysabino/8e2a46d8947166f362cfaab7f3f7cee7#file-guia-comparativo-apps-md)
+- [Como organizar as contas e sair do vermelho](https://www.moedux.com/br/blog/organizar-contas-sair-do-vermelho?utm_source=github&utm_medium=repo&utm_campaign=leia-tambem) — diagnóstico em três passos, sem planilha.
+- [Controle financeiro com IA](https://www.moedux.com/br/blog/controle-financeiro-com-ia?utm_source=github&utm_medium=repo&utm_campaign=leia-tambem) — como antecipar o Mar Vermelho com dados reais.
 
 ## Atualização
 
