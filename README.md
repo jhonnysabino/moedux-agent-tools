@@ -11,6 +11,8 @@ O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial 
 - Endpoint: `https://www.moedux.com/mcp`
 - Registro: `io.github.jhonnysabino/moedux@1.0.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.0.0
 - Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
+- Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
+- Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
 
 Ferramentas disponíveis:
 
