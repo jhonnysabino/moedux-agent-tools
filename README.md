@@ -16,7 +16,7 @@ O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial 
 
 Ferramentas disponíveis:
 
-- `prever_mar_vermelho` — data prevista em que o saldo chega a zero (Mar Vermelho), com link pré-preenchido.
+- `prever_mar_vermelho` — a data do Mar Vermelho e o próximo passo (o menor corte de gasto que a afasta), com link pré-preenchido e sem cadastro.
 - `projetar_saldo_12_meses` — saldo projetado em 12 meses e a data do Mar Vermelho, com link pré-preenchido e citação da fonte.
 
 Exemplo de configuração para um cliente MCP:
