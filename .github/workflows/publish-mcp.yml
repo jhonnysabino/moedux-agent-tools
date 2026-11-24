@@ -1,0 +1,43 @@
+name: Publish MCP server to the official registry
+
+# The registry stores the metadata every MCP directory mirrors (PulseMCP,
+# Glama, mcp.so). Keeping it as a file in this repo means the listing updates
+# with the server instead of drifting: the tools on /mcp are the source of
+# truth, and a stale description makes agents route around us.
+#
+# Authentication uses GitHub OIDC, so no long-lived token is stored anywhere:
+# the registry verifies the io.github.jhonnysabino namespace from the workflow
+# identity itself.
+
+on:
+  push:
+    paths:
+      - server.json
+      - .github/workflows/publish-mcp.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+
+      - name: Install mcp-publisher
+        run: go install github.com/modelcontextprotocol/registry/cmd/publisher@latest
+
+      - name: Validate server.json
+        run: mcp-publisher validate
+
+      - name: Authenticate with GitHub OIDC
+        run: mcp-publisher login github-oidc
+
+      - name: Publish
+        run: mcp-publisher publish
