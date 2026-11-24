@@ -9,7 +9,7 @@ Este repositório reúne os artefatos que um agente de IA precisa para usar o Mo
 O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial de MCP**, sem cadastro nem chave de API:
 
 - Endpoint: `https://www.moedux.com/mcp`
-- Registro: `io.github.jhonnysabino/moedux@1.4.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.4.0
+- Registro: `io.github.jhonnysabino/moedux@1.5.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.5.0
 - Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
 - Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
 - Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
@@ -19,7 +19,7 @@ O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial 
 Ferramentas disponíveis:
 
 - `prever_mar_vermelho` — a data do Mar Vermelho e o próximo passo (o menor corte de gasto que o afasta), com link pré-preenchido e sem cadastro.
-- `projetar_saldo_12_meses` — saldo projetado em 12 meses e a data do Mar Vermelho, com link pré-preenchido e citação da fonte.
+- `projetar_saldo_12_meses` — curva mês a mês do saldo em 12 meses, a data do Mar Vermelho e o menor corte de gasto, com link pré-preenchido e citação da fonte.
 - `calcular_rescisao` — quanto recebo de rescisão: total e quebra por verba (saldo, 13º, férias, aviso, multa do FGTS).
 - `calcular_seguro_desemprego` — quantas parcelas e o valor de cada parcela do seguro-desemprego.
 - `calcular_salario_liquido` — quanto cai na conta: salário líquido com INSS e IRRF de 2026 separados.
@@ -28,6 +28,7 @@ Ferramentas disponíveis:
 - `calcular_saque_aniversario_fgts` — valor do saque-aniversário, saldo restante e alíquota efetiva.
 - `calcular_decimo_terceiro` — 13º bruto, 1ª e 2ª parcelas já com INSS e Imposto de Renda.
 - `calcular_inss` — desconto do INSS, alíquota efetiva e salário após o desconto.
+- `calcular_horas_extras` — valor da hora, horas extras a 50% ou 100% e o DSR que o banco de horas esquece.
 
 Exemplo de configuração para um cliente MCP:
 
