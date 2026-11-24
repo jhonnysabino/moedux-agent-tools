@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.jhonnysabino/moedux",
   "title": "Moedux — Diagnóstico Financeiro",
-  "description": "Salário líquido, férias, rescisão, FGTS, 13º, INSS e seguro-desemprego — e quando o saldo chega a zero.",
+  "description": "Salário líquido, férias, rescisão, FGTS e 13º — e quando o saldo chega a zero.",
   "repository": {
     "url": "https://github.com/jhonnysabino/moedux-agent-tools",
     "source": "github"
