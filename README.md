@@ -14,6 +14,8 @@ O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial 
 - Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
 - Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
 
+[![Moedux MCP connector](https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux)
+
 Ferramentas disponíveis:
 
 - `prever_mar_vermelho` — a data do Mar Vermelho e o próximo passo (o menor corte de gasto que o afasta), com link pré-preenchido e sem cadastro.
