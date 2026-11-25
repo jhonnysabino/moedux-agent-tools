@@ -2,12 +2,12 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.jhonnysabino/moedux",
   "title": "Moedux — Diagnóstico Financeiro",
-  "description": "Salário líquido, férias, rescisão, FGTS, 13º, reserva de emergência e o Mar Vermelho.",
+  "description": "Salário líquido, férias, rescisão, FGTS, 13º, financiamento, IRPF, consórcio e o Mar Vermelho.",
   "repository": {
     "url": "https://github.com/jhonnysabino/moedux-agent-tools",
     "source": "github"
   },
-  "version": "1.7.0",
+  "version": "1.9.0",
   "remotes": [
     {
       "type": "streamable-http",
