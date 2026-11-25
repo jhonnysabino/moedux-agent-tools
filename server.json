@@ -1,13 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.jhonnysabino/moedux",
-  "title": "Moedux — Diagnóstico Financeiro",
-  "description": "Salário líquido, férias, rescisão, FGTS, 13º, financiamento, IRPF, consórcio e o Mar Vermelho.",
+  "title": "Moedux — Brazilian Personal Finance & Salary Calculator",
+  "description": "Brazilian personal finance: the date your salary runs out (Mar Vermelho), net salary, severance (rescisão), 13th salary, vacation, FGTS, INSS, IRPF, loans and consortium. 19 keyless tools for AI agents, no signup.",
   "repository": {
     "url": "https://github.com/jhonnysabino/moedux-agent-tools",
     "source": "github"
   },
-  "version": "1.9.0",
+  "version": "1.10.0",
   "remotes": [
     {
       "type": "streamable-http",
