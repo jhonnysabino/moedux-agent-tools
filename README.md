@@ -28,6 +28,7 @@ Ferramentas disponíveis:
 - `calcular_saque_aniversario_fgts` — valor do saque-aniversário, saldo restante e alíquota efetiva.
 - `calcular_decimo_terceiro` — 13º bruto, 1ª e 2ª parcelas já com INSS e Imposto de Renda.
 - `calcular_inss` — desconto do INSS, alíquota efetiva e salário após o desconto.
+- `calcular_pis_pasep` — abono PIS/PASEP: 1/12 do salário mínimo por mês trabalhado no ano-base e se a remuneração média dá direito.
 - `calcular_horas_extras` — valor da hora, horas extras a 50% ou 100% e o DSR que o banco de horas esquece.
 
 Exemplo de configuração para um cliente MCP:
