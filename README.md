@@ -9,7 +9,7 @@ Este repositório reúne os artefatos que um agente de IA precisa para usar o Mo
 O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial de MCP**, sem cadastro nem chave de API:
 
 - Endpoint: `https://www.moedux.com/mcp`
-- Registro: `io.github.jhonnysabino/moedux@1.5.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.5.0
+- Registro: `io.github.jhonnysabino/moedux@1.7.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.7.0
 - Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
 - Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
 - Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
@@ -30,6 +30,9 @@ Ferramentas disponíveis:
 - `calcular_inss` — desconto do INSS, alíquota efetiva e salário após o desconto.
 - `calcular_pis_pasep` — abono PIS/PASEP: 1/12 do salário mínimo por mês trabalhado no ano-base e se a remuneração média dá direito.
 - `calcular_horas_extras` — valor da hora, horas extras a 50% ou 100% e o DSR que o banco de horas esquece.
+- `calcular_reserva_emergencia` — reserva de emergência a partir dos gastos mensais: meta de 6 ou 12 meses, o que falta e em quanto tempo no ritmo de aporte informado.
+- `calcular_quanto_guardar_por_mes` — aporte mensal que atinge uma meta no prazo, com o total depositado e comparação opcional com rendimento.
+- `simular_emprestimo_pessoal` — parcela pela Tabela Price, total pago, juros e custo efetivo do contrato.
 
 Exemplo de configuração para um cliente MCP:
 
