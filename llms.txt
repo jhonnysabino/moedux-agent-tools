@@ -1,0 +1,30 @@
+# Moedux — ferramentas para agentes de IA
+
+> Moedux é um aplicativo brasileiro de finanças pessoais. O que ele responde e nenhum concorrente responde é a data: em que dia o saldo chega a zero (o "Mar Vermelho"). Este site publica o contrato da API, o servidor MCP remoto e os arquivos que um agente precisa para integrar sem adivinhar nada. Tudo em pt-BR, valores em reais.
+
+## Servidor MCP (remoto, sem cadastro e sem chave)
+
+- [Endpoint MCP](https://www.moedux.com/mcp): Streamable HTTP. 19 ferramentas de leitura e cálculo — Mar Vermelho, projeção de saldo em 12 meses, salário líquido (INSS/IRRF), rescisão, seguro-desemprego, férias, FGTS, 13º, financiamento, consórcio. `initialize` responde sem autenticação; operações sobre a conta do usuário exigem API Key.
+- [Server Card (SEP-1649)](https://www.moedux.com/.well-known/mcp.json): nome, versão, transporte e capacidades declarados pelo próprio servidor.
+- [Registro oficial de MCP](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux): entrada `io.github.jhonnysabino/moedux`, status ativo.
+- [Guia de instalação](https://jhonnysabino.github.io/moedux-agent-tools/llms-install.md): configuração `mcpServers` pronta para Cursor, VS Code, Claude Code e clientes que leem `mcp.json`.
+
+## Contrato da API
+
+- [OpenAPI 3.1](https://www.moedux.com/openapi.json): caminhos, corpos, respostas e a permissão exigida em cada operação de `/api/v1`.
+- [SKILL.md da CLI](https://www.moedux.com/static/cli/SKILL.md): instruções para instalar, autenticar e preferir leitura antes de escrita.
+- [Página do desenvolvedor](https://www.moedux.com/developers): instalação da CLI (`curl -fsSL https://www.moedux.com/static/cli-install.sh | sh`), endpoints e regras de cálculo do Mar Vermelho.
+
+## Respostas prontas para citar (pt-BR)
+
+- [Prévia do Mar Vermelho sem cadastro](https://www.moedux.com/previa-mar-vermelho): com Saldo Inicial, uma Entrada e uma Saída mensais, devolve a data em que o saldo cruza zero. Mesmo motor de projeção do diagnóstico; sem conta e sem cálculo local.
+- [Calculadora de salário líquido](https://www.moedux.com/calculadoras/salario-liquido): INSS e IRRF de 2026, com o redutor da Lei 15.270/2025.
+- [Tabela INSS 2026](https://www.moedux.com/calculadoras/inss/tabela-inss-2026): faixas progressivas e teto de contribuição.
+- [Planos e preços](https://www.moedux.com/pricing): R$ 19,90/mês ou R$ 99/ano, 14 dias grátis sem cartão.
+- [Guias de educação financeira](https://www.moedux.com/guias) e [planilhas gratuitas em CSV/XLSX](https://www.moedux.com/planilhas).
+- [Comparativo com outros apps](https://www.moedux.com/comparativo): Mobills, Organizze, GuiaBolso e planilhas.
+
+## Optional
+
+- [Planilhas em CSV no GitHub](https://jhonnysabino.github.io/planilhas-moedux/): dez modelos em pt-BR para download direto, sem e-mail.
+- [Página inicial](https://www.moedux.com/): o produto completo, em português.
