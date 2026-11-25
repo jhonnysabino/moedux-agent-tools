@@ -26,8 +26,10 @@ Open **MCP Servers → Configure MCP Servers** and merge this entry into the
 }
 ```
 
-Then click **Done** / reconnect. The server reports `serverInfo.name = "moedux"`,
-`version = "1.9.0"`, and exposes 19 tools.
+Then click **Done** / reconnect. The server reports `serverInfo.name = "moedux"`
+and exposes 19 tools; the version it reports in the `initialize` handshake is the
+same one published in the registry listing (`server.json`), so a stale copy is
+visible immediately.
 
 ## 2. Verify the install
 

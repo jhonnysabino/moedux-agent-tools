@@ -2,12 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.jhonnysabino/moedux",
   "title": "Moedux — Brazilian Personal Finance & Salary Calculator",
-  "description": "Brazilian personal finance: salary end date (Mar Vermelho), net pay, severance, FGTS, INSS.",
+  "description": "Brazilian pay: when your salary runs out, net pay, FGTS, INSS. Free, no signup.",
+  "websiteUrl": "https://www.moedux.com/?utm_source=mcp-registry&utm_medium=listing&utm_campaign=agent-tools",
   "repository": {
     "url": "https://github.com/jhonnysabino/moedux-agent-tools",
     "source": "github"
   },
-  "version": "1.10.1",
+  "version": "1.10.2",
   "remotes": [
     {
       "type": "streamable-http",

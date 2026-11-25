@@ -9,7 +9,7 @@ Este repositório reúne os artefatos que um agente de IA precisa para usar o Mo
 O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial de MCP**, sem cadastro nem chave de API:
 
 - Endpoint: `https://www.moedux.com/mcp`
-- Registro: `io.github.jhonnysabino/moedux@1.9.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.9.0
+- Registro: `io.github.jhonnysabino/moedux@1.10.2` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.10.2
 - Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
 - Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
 - Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
@@ -71,7 +71,9 @@ O binário aceita `diagnosis`, `transactions list|add|edit|remove`, `networth` e
 
 ## Começando sem cartão
 
-O cadastro cria 14 dias de teste gratuito: https://www.moedux.com/app/login?utm_source=github&utm_medium=repo&utm_campaign=agent-tools
+O cadastro cria 14 dias de teste gratuito, sem cartão: https://www.moedux.com/app/login?utm_source=github&utm_medium=repo&utm_campaign=agent-tools
+
+Depois do teste, o plano custa **R$ 19,90/mês** ou **R$ 99/ano** (Pague 5, ganhe 7), com a **Garantia de Paz Financeira**: 30 dias, devolução de 100% se não servir. O preço anual está travado até 31/12/2026: https://www.moedux.com/pricing?utm_source=github&utm_medium=repo&utm_campaign=offer
 
 ## Guias de finanças pessoais
 
