@@ -9,7 +9,7 @@ Este repositório reúne os artefatos que um agente de IA precisa para usar o Mo
 O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial de MCP**, sem cadastro nem chave de API:
 
 - Endpoint: `https://www.moedux.com/mcp`
-- Registro: `io.github.jhonnysabino/moedux@1.10.2` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.10.2
+- Registro: `io.github.jhonnysabino/moedux@1.11.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.11.0
 - Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
 - Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
 - Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
@@ -37,6 +37,7 @@ Ferramentas disponíveis:
 - `calcular_financiamento` — parcela pela Tabela Price a partir do valor do bem, entrada, prazo e taxa anual, com total pago, juros e a renda mínima que a parcela exige.
 - `calcular_irpf` — Imposto de Renda na folha com a tabela de 2026 e a redução da Lei 15.270/2025: base, alíquota efetiva e salário líquido.
 - `simular_consorcio` — parcela média do consórcio, custo da taxa de administração e economia em relação a um financiamento de mesmo valor e prazo.
+- `dividir_contas_casal` — quanto cada um paga nas contas comuns do casal: divisão proporcional à renda, o 50/50 para comparar e o peso de cada método na renda de cada pessoa.
 
 Exemplo de configuração para um cliente MCP:
 
