@@ -4,7 +4,7 @@
 
 ## Servidor MCP (remoto, sem cadastro e sem chave)
 
-- [Endpoint MCP](https://www.moedux.com/mcp): Streamable HTTP. 19 ferramentas de leitura e cálculo — Mar Vermelho, projeção de saldo em 12 meses, salário líquido (INSS/IRRF), rescisão, seguro-desemprego, férias, FGTS, 13º, financiamento, consórcio. `initialize` responde sem autenticação; operações sobre a conta do usuário exigem API Key.
+- [Endpoint MCP](https://www.moedux.com/mcp): Streamable HTTP. 21 ferramentas de leitura e cálculo — Mar Vermelho, projeção de saldo em 12 meses, salário líquido (INSS/IRRF), rescisão, seguro-desemprego, férias, FGTS, 13º, financiamento, consórcio, divisão de contas do casal e rendimento mensal de poupança/CDI/Tesouro/CDB/LCI. `initialize` responde sem autenticação; operações sobre a conta do usuário exigem API Key.
 - [Server Card (SEP-1649)](https://www.moedux.com/.well-known/mcp.json): nome, versão, transporte e capacidades declarados pelo próprio servidor.
 - [Registro oficial de MCP](https://registry.modelcontextprotocol.io/v0/servers?search=moedux): entrada `io.github.jhonnysabino/moedux`, status ativo.
 - [Guia de instalação](https://jhonnysabino.github.io/moedux-agent-tools/llms-install.md): configuração `mcpServers` pronta para Cursor, VS Code, Claude Code e clientes que leem `mcp.json`.
