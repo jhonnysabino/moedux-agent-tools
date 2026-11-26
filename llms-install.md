@@ -75,6 +75,8 @@ Every tool takes plain numbers in Brazilian reais and answers in Portuguese.
 | `simular_consorcio` | Consortium installment, administration fee and comparison with financing |
 | `dividir_contas_casal` | Proportional split of the couple's shared bills, the 50/50 alternative and each method's share of each income |
 | `calcular_quanto_rende_por_mes` | Monthly and 12-month yield on savings, CDI, Tesouro Selic, CDB or LCI/LCA, with the November/2026 reference rate or a custom monthly rate, and the IR treatment |
+| `calcular_quitar_dividas` | Months until a debt is paid off, total paid, interest and the minimum payment that makes the balance fall |
+| `calcular_pagar_minimo_cartao` | The cost of paying only the card minimum for 12 months: total paid, interest, remaining balance and time to halve it |
 
 ## 4. Notes for the agent
 
