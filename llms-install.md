@@ -73,6 +73,8 @@ Every tool takes plain numbers in Brazilian reais and answers in Portuguese.
 | `calcular_financiamento` | Price-table installment, total, interest and minimum income |
 | `calcular_irpf` | Payroll income tax (2026 table, Lei 15.270/2025 reduction) and net salary |
 | `simular_consorcio` | Consortium installment, administration fee and comparison with financing |
+| `dividir_contas_casal` | Proportional split of the couple's shared bills, the 50/50 alternative and each method's share of each income |
+| `calcular_quanto_rende_por_mes` | Monthly and 12-month yield on savings, CDI, Tesouro Selic, CDB or LCI/LCA, with the November/2026 reference rate or a custom monthly rate, and the IR treatment |
 
 ## 4. Notes for the agent
 
