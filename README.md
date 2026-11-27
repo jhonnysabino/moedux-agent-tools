@@ -9,7 +9,7 @@ Este repositório reúne os artefatos que um agente de IA precisa para usar o Mo
 O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial de MCP**, sem cadastro nem chave de API:
 
 - Endpoint: `https://www.moedux.com/mcp`
-- Registro: `io.github.jhonnysabino/moedux@1.14.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.14.0
+- Registro: `io.github.jhonnysabino/moedux@1.15.0` — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jhonnysabino%2Fmoedux/versions/1.15.0
 - Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
 - Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
 - Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
