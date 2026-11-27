@@ -27,7 +27,7 @@ Open **MCP Servers → Configure MCP Servers** and merge this entry into the
 ```
 
 Then click **Done** / reconnect. The server reports `serverInfo.name = "moedux"`
-and exposes 19 tools; the version it reports in the `initialize` handshake is the
+and exposes 23 tools; the version it reports in the `initialize` handshake is the
 same one published in the registry listing (`server.json`), so a stale copy is
 visible immediately.
 
@@ -62,7 +62,7 @@ Every tool takes plain numbers in Brazilian reais and answers in Portuguese.
 | `calcular_ferias` | Vacation pay with the 1/3 bonus, INSS/IRRF and the 10-day cash-out |
 | `calcular_fgts` | FGTS balance from gross salary and months worked |
 | `calcular_saque_aniversario_fgts` | FGTS birthday-withdrawal value, remaining balance and effective rate |
-| `calcular_decimo_terceiro` | 13th salary gross, 1st and 2nd installments after INSS and IR |
+| `calcular_decimo_terceiro` | 13th salary gross, 1st and 2nd installments after INSS and IR, and the legal payment window (1st by November 30, 2nd by December 20) |
 | `calcular_inss` | INSS discount, effective rate and salary after the discount |
 | `calcular_pis_pasep` | PIS/PASEP allowance and eligibility |
 | `calcular_horas_extras` | Hour value, 50%/100% overtime and the DSR |
