@@ -13,8 +13,10 @@ O Moedux publica um servidor MCP remoto (Streamable HTTP) no **Registro Oficial 
 - Server Card SEP-1649: https://www.moedux.com/.well-known/mcp.json
 - Conector Glama (qualidade das ferramentas): https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux
 - Lista de servidores MCP remotos, categoria Finance: https://github.com/punkpeye/awesome-remote-mcp-servers/pull/5498
+- Saúde e ferramentas verificadas por terceiros: https://mcptry.com/servers/com.moedux/financas
 
 [![Moedux MCP connector](https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.jhonnysabino/moedux)
+[![mcptry](https://mcptry.com/badge/com.moedux/financas)](https://mcptry.com/servers/com.moedux/financas)
 
 Ferramentas disponíveis:
 
